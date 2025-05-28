@@ -2,8 +2,11 @@
 resolver = "3"
 members = [
     "aoc-proc",
+    
+    # 2015
     "2015/01-not-quite-lisp",
-    "2015/02-i-was-told-there-would-be-no-math"
+    "2015/02-i-was-told-there-would-be-no-math",
+    "2015/03-perfectly-spherical-houses-in-a-vacuum"
 ]
 
 [workspace.package]

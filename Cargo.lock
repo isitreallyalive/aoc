@@ -25,6 +25,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "aoc2015-03"
+version = "1.0.0"
+dependencies = [
+ "aoc",
+]
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.95"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -8,3 +8,4 @@ this repository contains my solutions to all of the Advent of Code challenges. i
 
 - [day 1: not quite lisp](2015/01-not-quite-lisp/src/main.rs)
 - [day 2: i was told there would be no math](2015/02-i-was-told-there-would-be-no-math/src/main.rs)
+- [day 3: perfectly spherical houses in a vacuum](2015/03-perfectly-spherical-houses-in-a-vacuum/src/main.rs)
