@@ -40,6 +40,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "aoc2015-05"
+version = "1.0.0"
+dependencies = [
+ "aoc",
+]
+
+[[package]]
 name = "bitflags"
 version = "2.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"

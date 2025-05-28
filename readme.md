@@ -10,3 +10,4 @@ this repository contains my solutions to all of the Advent of Code challenges. i
 - [day 2: i was told there would be no math](2015/02-i-was-told-there-would-be-no-math/src/main.rs)
 - [day 3: perfectly spherical houses in a vacuum](2015/03-perfectly-spherical-houses-in-a-vacuum/src/main.rs)
 - [day 4: the ideal stocking stuffer](2015/04-the-ideal-stocking-stuffer/src/main.rs)
+- [day 5: doesn't he have intern-elves for this?](2015/05-doesnt-he-have-intern-elves-for-this/src/main.rs)
