@@ -6,7 +6,8 @@ members = [
     # 2015
     "2015/01-not-quite-lisp",
     "2015/02-i-was-told-there-would-be-no-math",
-    "2015/03-perfectly-spherical-houses-in-a-vacuum"
+    "2015/03-perfectly-spherical-houses-in-a-vacuum",
+    "2015/04-the-ideal-stocking-stuffer"
 ]
 
 [workspace.package]
@@ -18,3 +19,4 @@ edition = "2024"
 aoc = { path = "aoc-proc" }
 quote = "1.0.40"
 syn = "2.0.101"
+openssl = "0.10.72"

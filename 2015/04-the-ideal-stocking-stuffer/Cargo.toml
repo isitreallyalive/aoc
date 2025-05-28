@@ -1,0 +1,9 @@
+[package]
+name = "aoc2015-04"
+publish.workspace = true
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+aoc.workspace = true
+openssl.workspace = true
