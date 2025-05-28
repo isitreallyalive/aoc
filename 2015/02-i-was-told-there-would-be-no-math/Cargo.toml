@@ -1,0 +1,7 @@
+[package]
+name = "aoc2015-02"
+publish.workspace = true
+version.workspace = true
+edition.workspace = true
+
+[dependencies]

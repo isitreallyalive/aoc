@@ -5,3 +5,7 @@ version = 4
 [[package]]
 name = "aoc2015-01"
 version = "1.0.0"
+
+[[package]]
+name = "aoc2015-02"
+version = "1.0.0"
