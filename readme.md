@@ -21,3 +21,6 @@ this repository contains my solutions to all of the Advent of Code challenges. i
 - day 5: doesn't he have intern-elves for this?
     - [problem](https://adventofcode.com/2015/day/5)
     - [solution](2015/05-doesnt-he-have-intern-elves-for-this/src/main.rs)
+- day 6: probably a fire hazard
+    - [problem](https://adventofcode.com/2015/day/6)
+    - [solution](2015/06-probably-a-fire-hazard/src/main.rs)
