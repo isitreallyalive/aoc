@@ -1,5 +1,6 @@
-const INPUT: &str = include_str!("input.txt");
-
+#[aoc::solution(
+    "The elves should order a total of {paper} square feet of wrapping paper, and {ribbon} feet of ribbon."
+)]
 fn main() {
     let mut paper = 0;
     let mut ribbon = 0;
@@ -36,8 +37,4 @@ fn main() {
 
         ribbon += (wrap_present + bow) as u32;
     }
-
-    println!(
-        "The elves should order a total of {paper} square feet of wrapping paper, and {ribbon} feet of ribbon.",
-    );
 }

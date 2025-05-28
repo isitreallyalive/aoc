@@ -1,10 +1,17 @@
 [workspace]
 resolver = "3"
 members = [
-    "2015/01-not-quite-lisp"
-, "2015/02-i-was-told-there-would-be-no-math"]
+    "aoc-proc",
+    "2015/01-not-quite-lisp",
+    "2015/02-i-was-told-there-would-be-no-math"
+]
 
 [workspace.package]
 publish = false
 version = "1.0.0"
 edition = "2024"
+
+[workspace.dependencies]
+aoc = { path = "aoc-proc" }
+quote = "1.0.40"
+syn = "2.0.101"

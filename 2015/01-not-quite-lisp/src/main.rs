@@ -1,8 +1,10 @@
-const INPUT: &str = include_str!("input.txt");
-
+#[aoc::solution(
+    "The floor santa ends up on is {floor}.",
+    "The character which first causes him to enter the basement is at position {basement}."
+)]
 fn main() {
     let mut floor = 0;
-    let mut basement = false;
+    let mut basement = -1;
 
     for (i, c) in INPUT.chars().enumerate() {
         // adjust the floor
@@ -13,14 +15,8 @@ fn main() {
         };
 
         // check if this is the first time Santa has entered the basement
-        if floor == -1 && !basement {
-            println!(
-                "The character that first caused Santa to enter the basement is at position {}.",
-                i + 1
-            );
-            basement = true;
+        if floor == -1 && basement == -1 {
+            basement = i as isize + 1;
         }
     }
-
-    println!("The floor santa ends up on is {floor}.")
 }
